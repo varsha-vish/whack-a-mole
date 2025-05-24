@@ -15,4 +15,5 @@ function Mole( { onWhack, position } ) {
         </div>
     );
 }
+
 export default Mole;
