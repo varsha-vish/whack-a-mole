@@ -17,13 +17,13 @@ function App() {
         setPosition({top, left});
       }
 
-    }, 1000);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
   const whackMole = () => {
     if (moleVisible) {
-      setScore(score+1);
+      setScore(prevScore => prevScore + 1);
       setMoleVisible(false);
     };
   };

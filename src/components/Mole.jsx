@@ -11,7 +11,7 @@ function Mole( { onWhack, position } ) {
                 left: `${position.left}px`,
                 transition: 'top 0.2s, left 0.2s',
             }}>
-            <img src={moleImage} alt="mole" style={{ width: '80px' }} />
+            <img src={moleImage} alt="mole" style={{ width: '60px' }} />
         </div>
     );
 }
